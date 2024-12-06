@@ -1,6 +1,5 @@
 # Academic-Harbor
 Academic Harbor is a student-focused platform offering AI-powered query assistance, online workspaces, trending courses, and personalized study materials.
-# Academic Harbor
 
 ## Overview
 Academic Harbor is a comprehensive platform designed to cater to the diverse needs of students. It integrates advanced AI capabilities, user-friendly features, and a modern interface to streamline learning and academic management. The project aims to create an all-in-one solution for students to access resources, organize their academic data, and gain personalized assistance.
