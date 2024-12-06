@@ -1,0 +1,42 @@
+.vcontainer {
+  padding-top: 19vh;
+
+  max-height: 87vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vcontainer {
+  padding-top: 16vh;
+  max-height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .vcontainer {
+    padding-top: 19vh; /* Reduce padding on top for mobile screens */
+    max-height: 60vh; /* Adjust max height for mobile screens */
+  }
+
+  iframe {
+    height: 200px; /* Responsive height for mobile */
+  }
+}
+
+/* Desktop Responsive Styles */
+@media only screen and (min-width: 1024px) {
+  .vcontainer {
+    padding-top: 22vh; /* Adjust padding for larger screens */
+    max-height: 80vh; /* Adjust max height for larger screens */
+  }
+
+  iframe {
+    height: 80vh; /* Set iframe height relative to viewport height */
+    width: 80%; /* Make the iframe slightly narrower on desktop for better aesthetics */
+    max-width: 1200px; /* Limit the max width for very large screens */
+  }
+}
